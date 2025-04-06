@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "test": "vitest",
     "preview": "vite preview",
     "lint": "biome lint",
     "format": "biome check",
@@ -18,5 +19,12 @@
     "react-dom": "19.0.0",
     "typescript": "5.7.2",
     "vite": "6.0.6"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "jsdom": "^26.0.0",
+    "vitest": "^3.1.1"
   }
 }
